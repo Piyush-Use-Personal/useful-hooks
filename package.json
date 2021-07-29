@@ -2,6 +2,16 @@
   "name": "useful-hook",
   "version": "0.1.0",
   "private": true,
+  "description": "Useful ",
+  "author": "Piyush",
+  "keywords": ["axios hooks", "useAxios", "use axios"],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [ "dist", "README.md" ],
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Piyush-Use-Personal/useful-hooks.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.4",
