@@ -1,7 +1,6 @@
 {
   "name": "useful-hook",
   "version": "0.1.0",
-  "private": true,
   "description": "Useful ",
   "author": "Piyush",
   "keywords": ["axios hooks", "useAxios", "use axios"],
