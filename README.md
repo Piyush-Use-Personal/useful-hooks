@@ -13,7 +13,7 @@ following is the sample of how you can use it
     isLoading,
     result,
     isSuccess,
-  } = useFetch(API_URL, config, refetch); // refetch can be a state variable and increment or decrement it if you want to refetch from the API
+  } = useAxios(API_URL, config, refetch); // refetch can be a state variable and increment or decrement it if you want to refetch from the API
 ```
 
 ### useActionAxios - GET APIs Only
@@ -25,5 +25,5 @@ following is the sample of how you can use it
     result,
     isSuccess,
     dispatch: dispatcher,
-  } = useActionFetch(API_URL, config); // call dispatcher whenever you want to make API call like button click etc
+  } = useActionAxios(API_URL, config); // call dispatcher whenever you want to make API call like button click etc
 ```
