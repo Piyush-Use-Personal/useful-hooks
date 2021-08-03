@@ -27,3 +27,4 @@ following is the sample of how you can use it
     dispatch: dispatcher,
   } = useActionAxios(API_URL, config); // call dispatcher whenever you want to make API call like button click etc
 ```
+Thanks.
